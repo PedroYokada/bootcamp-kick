@@ -1,18 +1,19 @@
 # ✅ Relatório de migração — Bootcamp Kick
 
-A consolidação dos repositórios do Bootcamp Kick foi concluída com sucesso em **27/09/2026**.
+A consolidação dos repositórios do Bootcamp Kick foi concluída com sucesso em **27/09/2026** e, na sequência, a estrutura organizacional foi padronizada em **kebab-case**.
 
 ## Resumo
 
 - Repositórios importados: **19**
 - Arquivos versionados importados: **355**
-- Estrutura principal criada: fundamentos web, JavaScript/front-end, projeto Xbox, WordPress e Python
-- Estratégia utilizada: **`git subtree` sem `--squash`**, preservando o histórico Git dos repositórios de origem dentro da consolidação
+- Estrutura principal: fundamentos web, JavaScript/front-end, projeto Xbox, WordPress, Python e documentação
+- Estratégia de migração: **`git subtree` sem `--squash`**
+- Padronização posterior: nomes das pastas organizacionais convertidos para kebab-case
 - Repositórios originais: **não foram excluídos nem alterados**
 
 ## Validação por projeto
 
-| Destino | Arquivos versionados |
+| Destino atual | Arquivos versionados na importação |
 |---|---:|
 | `fundamentos-web/desafios-iniciais` | 4 |
 | `fundamentos-web/desafio-05-kick` | 9 |
@@ -35,6 +36,24 @@ A consolidação dos repositórios do Bootcamp Kick foi concluída com sucesso e
 | `python/modulo-v-python` | 69 |
 | **Total** | **355** |
 
+## Padronização de nomes
+
+As pastas de agrupamento e as pastas que representam cada projeto passaram a seguir kebab-case. Exemplos:
+
+```text
+01-fundamentos-web/Desafio-05-Kick
+        ↓
+fundamentos-web/desafio-05-kick
+```
+
+```text
+03-projeto-xbox/desafiowebkick
+        ↓
+projeto-xbox/projeto-xbox-web
+```
+
+As estruturas internas dos projetos foram preservadas quando uma mudança poderia quebrar caminhos relativos ou alterar o funcionamento original.
+
 ## Arquivo grande identificado
 
 O arquivo:
@@ -43,16 +62,26 @@ O arquivo:
 python/modulo-v-python/Projeto Python/lista_de_espera_sisu_2022_2.csv
 ```
 
-possui aproximadamente **88,99 MB**. O GitHub aceitou o arquivo normalmente, mas emitiu um aviso por ele ultrapassar o tamanho recomendado de 50 MB. Ele permanece abaixo do limite máximo convencional de 100 MB por arquivo.
+possui aproximadamente **88,99 MB**. O GitHub aceitou o arquivo, mas emitiu aviso por ele ultrapassar o tamanho recomendado de 50 MB. Ele permanece abaixo do limite máximo convencional de 100 MB por arquivo.
 
-Caso este projeto continue recebendo arquivos grandes no futuro, vale considerar **Git LFS**.
+Caso o projeto passe a receber novos arquivos grandes, vale considerar Git LFS.
 
 ## Preservação de histórico
 
-A migração utilizou `git subtree` sem compactar os históricos. Isso significa que os commits dos repositórios de origem continuam acessíveis no histórico do repositório consolidado por meio dos commits de merge criados durante cada importação.
+A migração utilizou `git subtree` sem compactar os históricos. Os commits dos repositórios de origem permanecem incorporados ao histórico do repositório consolidado por meio dos commits de merge criados durante cada importação.
 
-## Próximo passo opcional
+A reorganização posterior foi feita com movimentação de arquivos dentro do próprio repositório, sem apagar os projetos.
 
-Depois de conferir visualmente todos os projetos no novo repositório, os repositórios antigos podem ser **arquivados** no GitHub para deixar o perfil mais organizado sem apagar o histórico original.
+## Documentação adicionada
 
-A exclusão dos repositórios antigos não é necessária para obter a organização desejada e deve ser feita somente se houver certeza de que não serão mais necessários individualmente.
+- `docs/mapa-de-origens.md`
+- `docs/estrutura-do-repositorio.md`
+- `docs/github-about.md`
+- `docs/revisao-manual.md`
+- `.gitignore`
+
+## Repositórios antigos
+
+Depois da conferência visual dos projetos consolidados, os repositórios antigos podem ser **arquivados** para deixar o perfil mais organizado sem apagar o histórico individual.
+
+A exclusão não é necessária para obter essa organização.
