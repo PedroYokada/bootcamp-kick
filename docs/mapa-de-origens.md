@@ -1,39 +1,41 @@
 # 🗺️ Mapa de origens — Bootcamp Kick
 
-Este documento registra de onde veio cada projeto consolidado neste repositório. Os nomes originais foram preservados para facilitar auditoria e comparação.
+Este documento registra de onde veio cada projeto consolidado. Os **nomes originais dos repositórios** foram mantidos nesta documentação, enquanto as pastas internas do repositório consolidado seguem a convenção **kebab-case**.
 
 | Etapa | Repositório original | Destino na consolidação | Observação |
 |---|---|---|---|
-| Fundamentos | [desafios-iniciais](https://github.com/PedroYokada/desafios-iniciais) | [Abrir pasta](../fundamentos-web/desafios-iniciais/) | Primeiros exercícios de HTML e lógica. |
-| Fundamentos | [desafio-05-kick](https://github.com/PedroYokada/desafio-05-kick) | [Abrir pasta](../fundamentos-web/desafio-05-kick/) | Inclui conteúdo repetido dos primeiros desafios e o Desafio 05. |
-| Fundamentos | [desafio-07-08-kick](https://github.com/PedroYokada/desafio-07-08-kick) | [Abrir pasta](../fundamentos-web/desafio-07-08-kick/) | Exercício de tabela em HTML/CSS. |
-| UI/Figma | [desafio-09-10-figma](https://github.com/PedroYokada/desafio-09-10-figma) | [Abrir pasta](../fundamentos-web/desafio-09-10-figma/) | KICKFLIX, wireframe, protótipo, referências e assets. |
-| Front-end | [desafio-11-kick](https://github.com/PedroYokada/desafio-11-kick) | [Abrir pasta](../fundamentos-web/desafio-11-kick/) | Tema Space Invaders. |
-| Front-end | [desafio-13-kick](https://github.com/PedroYokada/desafio-13-kick) | [Abrir pasta](../fundamentos-web/desafio-13-kick/) | Tema Mega Man X e responsividade. |
-| Front-end | [desafio-17-kick](https://github.com/PedroYokada/desafio-17-kick) | [Abrir pasta](../fundamentos-web/desafio-17-kick/) | Tema IGN, Flexbox e dropdown responsivo. |
-| JavaScript | [desafio-19-kick](https://github.com/PedroYokada/desafio-19-kick) | [Abrir pasta](../javascript-front-end/desafio-19-kick/) | Exercício de interação e votação fictícia. |
-| JavaScript | [desafio-22-kick](https://github.com/PedroYokada/desafio-22-kick) | [Abrir pasta](../javascript-front-end/desafio-22-kick/) | Quiz com funções. |
-| JavaScript | [desafio-23-kick](https://github.com/PedroYokada/desafio-23-kick) | [Abrir pasta](../javascript-front-end/desafio-23-kick/) | Funções, `return` e `switch`. |
-| JavaScript | [desafio-25-kick](https://github.com/PedroYokada/desafio-25-kick) | [Abrir pasta](../javascript-front-end/desafio-25-kick/) | Debugging e correção de erros. |
-| JavaScript/API | [desafio-27-kick](https://github.com/PedroYokada/desafio-27-kick) | [Abrir pasta](../javascript-front-end/desafio-27-kick/) | Formulário integrado ao ViaCEP. |
-| JavaScript | [desafio-29-kick](https://github.com/PedroYokada/desafio-29-kick) | [Abrir pasta](../javascript-front-end/desafio-29-kick/) | Carrossel com JavaScript puro. |
-| Bootstrap | [desafio-31-kick](https://github.com/PedroYokada/desafio-31-kick) | [Abrir pasta](../javascript-front-end/desafio-31-kick/) | Componentes Bootstrap. |
-| Front-end | [parada-34-kick](https://github.com/PedroYokada/parada-34-kick) | [Abrir pasta](../javascript-front-end/parada-34-kick/) | Estrutura incompleta preservada. |
-| Projeto final | [projeto-xbox-figma](https://github.com/PedroYokada/projeto-xbox-figma) | [Abrir pasta](../projeto-xbox/projeto-xbox-figma/) | Prototipação do projeto Xbox no Figma. |
-| Projeto final | [projeto-xbox-web](https://github.com/PedroYokada/projeto-xbox-web) | [Abrir pasta](../projeto-xbox/projeto-xbox-web/) | Implementação do projeto Xbox. |
-| WordPress | [modulo-iv-wordpress](https://github.com/PedroYokada/modulo-iv-wordpress) | [Abrir pasta](../wordpress/modulo-iv-wordpress/) | Portfólio e desafios do módulo IV. |
-| Python | [modulo-v-python](https://github.com/PedroYokada/modulo-v-python) | [Abrir pasta](../python/modulo-v-python/) | Exercícios, notebook e projeto de dados. |
+| Fundamentos | [desafios-kick](https://github.com/PedroYokada/desafios-kick) | [Abrir pasta](../fundamentos-web/desafios-iniciais/) | Primeiros exercícios de HTML e lógica. |
+| Fundamentos | [Desafio-05-Kick](https://github.com/PedroYokada/Desafio-05-Kick) | [Abrir pasta](../fundamentos-web/desafio-05-kick/) | Inclui conteúdo repetido dos primeiros desafios e o Desafio 05. |
+| Fundamentos | [Desafio0708Kick](https://github.com/PedroYokada/Desafio0708Kick) | [Abrir pasta](../fundamentos-web/desafio-07-08-kick/) | Exercício de tabela em HTML/CSS. |
+| UI/Figma | [desafiokick0910figma](https://github.com/PedroYokada/desafiokick0910figma) | [Abrir pasta](../fundamentos-web/desafio-09-10-figma/) | KICKFLIX, wireframe, protótipo, referências e assets. |
+| Front-End | [desafio11kick](https://github.com/PedroYokada/desafio11kick) | [Abrir pasta](../fundamentos-web/desafio-11-kick/) | Site temático Space Invaders. |
+| Front-End | [desafiokick13](https://github.com/PedroYokada/desafiokick13) | [Abrir pasta](../fundamentos-web/desafio-13-kick/) | Tema Mega Man X e responsividade. |
+| Front-End | [desafio017kick](https://github.com/PedroYokada/desafio017kick) | [Abrir pasta](../fundamentos-web/desafio-17-kick/) | Tema IGN, Flexbox e dropdown responsivo. |
+| JavaScript | [desafio19kick](https://github.com/PedroYokada/desafio19kick) | [Abrir pasta](../javascript-front-end/desafio-19-kick/) | Exercício de interação e votação fictícia. |
+| JavaScript | [desafiokick22](https://github.com/PedroYokada/desafiokick22) | [Abrir pasta](../javascript-front-end/desafio-22-kick/) | Quiz com funções. |
+| JavaScript | [desafiokick23](https://github.com/PedroYokada/desafiokick23) | [Abrir pasta](../javascript-front-end/desafio-23-kick/) | Funções, `return` e `switch`. |
+| JavaScript | [desafio25kick](https://github.com/PedroYokada/desafio25kick) | [Abrir pasta](../javascript-front-end/desafio-25-kick/) | Debugging e correção de erros. |
+| JavaScript/API | [desafio27kick](https://github.com/PedroYokada/desafio27kick) | [Abrir pasta](../javascript-front-end/desafio-27-kick/) | Formulário integrado ao ViaCEP. |
+| JavaScript | [desafio29kick](https://github.com/PedroYokada/desafio29kick) | [Abrir pasta](../javascript-front-end/desafio-29-kick/) | Carrossel com JavaScript puro. |
+| Bootstrap | [desafio31kick](https://github.com/PedroYokada/desafio31kick) | [Abrir pasta](../javascript-front-end/desafio-31-kick/) | Componentes Bootstrap. |
+| Front-End | [parada34kick](https://github.com/PedroYokada/parada34kick) | [Abrir pasta](../javascript-front-end/parada-34-kick/) | Estrutura incompleta preservada. |
+| Projeto Xbox | [projetowebxboxkick](https://github.com/PedroYokada/projetowebxboxkick) | [Abrir pasta](../projeto-xbox/projeto-xbox-figma/) | Prototipação do projeto Xbox no Figma. |
+| Projeto Xbox | [desafiowebkick](https://github.com/PedroYokada/desafiowebkick) | [Abrir pasta](../projeto-xbox/projeto-xbox-web/) | Implementação do projeto Xbox. |
+| WordPress | [ModuloIV-WordPress-Kick](https://github.com/PedroYokada/ModuloIV-WordPress-Kick) | [Abrir pasta](../wordpress/modulo-iv-wordpress/) | Portfólio e desafios do módulo IV. |
+| Python | [ModuloV-Python-Kick](https://github.com/PedroYokada/ModuloV-Python-Kick) | [Abrir pasta](../python/modulo-v-python/) | Exercícios, notebooks e projeto de dados. |
 
 ## Duplicações conhecidas
 
-Os repositórios `desafios-iniciais` e `desafio-05-kick` compartilham conteúdos idênticos em partes dos primeiros exercícios. A consolidação preserva ambos em pastas separadas para não eliminar material histórico.
+Os repositórios `desafios-kick` e `Desafio-05-Kick` compartilham conteúdos idênticos em partes dos primeiros exercícios. Ambos continuam preservados em pastas separadas para manter o registro histórico.
 
 ## Regra de preservação
 
-Nenhum arquivo de um projeto substituiu arquivo de outro projeto. Nomes comuns como `index.html`, `index.css`, `index.js` e `README.md` permaneceram dentro da pasta do repositório de origem.
+Nenhum arquivo de um projeto substitui arquivo de outro projeto. Nomes comuns como `index.html`, `index.css`, `index.js` e `README.md` permanecem isolados dentro da pasta de cada projeto.
+
+A padronização em kebab-case foi aplicada principalmente à **estrutura organizacional e aos nomes das pastas de cada projeto**. Pastas internas dos trabalhos originais foram mantidas quando renomeá-las poderia alterar caminhos relativos, referências de assets ou o funcionamento histórico do projeto.
 
 ## Repositórios originais
 
-Os repositórios antigos não foram excluídos. Depois da conferência visual do repositório consolidado, eles podem ser arquivados manualmente caso o objetivo seja deixar o perfil principal mais enxuto, mantendo o histórico acessível.
+Os repositórios antigos não foram excluídos. Eles podem ser arquivados posteriormente no GitHub caso o objetivo seja deixar o perfil principal mais enxuto sem apagar o histórico.
 
-Veja também o [relatório final de migração](./relatorio-de-migracao.md).
+Veja também o [relatório de migração](./relatorio-de-migracao.md) e a [estrutura do repositório](./estrutura-do-repositorio.md).
