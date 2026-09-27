@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../git/projects"
+		},
+		{
+			"path": "../../../git/Nova pasta"
+		},
+		{
+			"path": "../PROGRAMACAO WEB"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PROGRAMACAO WEB"
+	}
+}
