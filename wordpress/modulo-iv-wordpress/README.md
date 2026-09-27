@@ -1,67 +1,119 @@
-# Repositório de WordPress Kick
+# 📝 Módulo IV — WordPress | Bootcamp Kick
 
-<p align="justify">
+## 📌 Sobre o módulo
 
-O objetivo deste repositório é hospedar projetos do Módulo IV do bootcamp que estou fazendo na Kick. Este módulo tem o objetivo de construir um site em WordPress com a temática de portfólio pessoal. 
-A construção do portfólio é realizada nas próprias aulas, proporcionando uma dinâmica diferenciada aos alunos.
+Esta pasta registra as atividades do **Módulo IV do Bootcamp Kick**, cuja proposta foi construir um site em WordPress com temática de **portfólio pessoal**. O desenvolvimento aconteceu em etapas: primeiro foi criado um rascunho visual no Figma, depois foram definidas cores e fontes e, em seguida, foram registradas versões do portfólio e uma atividade colaborativa em grupo.
 
-# Desafio 35-36 
+Os arquivos preservados nesta pasta são principalmente **capturas de tela e materiais visuais**. Não há, nesta consolidação, o código-fonte completo de uma instalação WordPress; por isso, a documentação abaixo descreve apenas o que os materiais existentes sustentam.
 
-Este desafio tem como objetivo fazer com que os alunos criem um esboço/rascunho do site que será construído em WordPress (Rascunho feito no Figma).
+## 🎯 Objetivo
 
-</p>
+Conhecer o processo de construção de um site através de um **CMS**, relacionando planejamento visual, identidade gráfica, edição de páginas e organização de conteúdo.
 
-![Desafio 35 - WordPress](https://github.com/PedroYokada/ModuloIV-WordPress-Kick/blob/main/Desafio3536/Desafio3536.png)
+## 🧠 Conceitos técnicos
 
-# Desafio 37-38
+### O que é um CMS?
 
-Enunciado: Defina a paleta de cores e a fonte do seu site, após fazer isso altere as cores e a fonte nas configurações do site.​
-Envie um print do seu portfólio até o momento.
+**CMS (Content Management System)** significa Sistema de Gerenciamento de Conteúdo. É uma plataforma que permite estruturar e administrar conteúdo de um site através de uma interface de gerenciamento, reduzindo a necessidade de escrever manualmente toda a estrutura da aplicação para cada alteração de conteúdo.
 
-Este desafio de dar continuidade a construção do site em WordPress, mas agora adicionando paleta de cores e fontes no projeto
-e tambem mostrar os resultados da construção.
+Neste módulo, o CMS utilizado foi o **WordPress**.
 
+### WordPress
 
-# Prints do site do site em WordPress
+WordPress organiza o processo de criação do site em uma plataforma de gerenciamento. Em um projeto desse tipo, o conteúdo e a aparência podem ser configurados através do ambiente administrativo e das opções disponíveis na instalação utilizada.
 
-### Primeiro print
-![Desafio 37 - WordPress](https://github.com/PedroYokada/ModuloIV-WordPress-Kick/blob/main/Desafio3738/1.png)
-<br>
-### Segundo print
-![Desafio 37 - WordPress](https://github.com/PedroYokada/ModuloIV-WordPress-Kick/blob/main/Desafio3738/2.png)
-<br>
-### Terceiro print
-![Desafio 37 - WordPress](https://github.com/PedroYokada/ModuloIV-WordPress-Kick/blob/main/Desafio3738/3.png)
-<br>
-### Quarto print
-![Desafio 37 - WordPress](https://github.com/PedroYokada/ModuloIV-WordPress-Kick/blob/main/Desafio3738/4.png)
+Os materiais deste repositório mostram a construção progressiva de um portfólio pessoal, mas não registram quais temas, plugins ou configurações internas específicas foram utilizados. Esses detalhes, portanto, não são afirmados nesta documentação.
+
+### Figma antes do WordPress
+
+No **Desafio 35–36**, foi criado um esboço/rascunho da página no Figma antes de construir a versão no WordPress.
+
+![Rascunho do Desafio 35–36](./Desafio3536/Desafio3536.png)
+
+Planejar a página antes da implementação ajuda a definir:
+
+- hierarquia das informações;
+- distribuição das seções;
+- ordem do conteúdo;
+- identidade visual pretendida.
 
 ### Paleta de cores
-![Desafio 37 - WordPress](https://github.com/PedroYokada/ModuloIV-WordPress-Kick/blob/main/Desafio3738/Paleta.png)
 
+No **Desafio 37–38**, a atividade solicita a definição da paleta de cores e sua aplicação ao site.
 
-### Fontes
-![Desafio 37 - WordPress](https://github.com/PedroYokada/ModuloIV-WordPress-Kick/blob/main/Desafio3738/Fontes%20(1).png)
+![Paleta de cores](./Desafio3738/Paleta.png)
 
+Uma paleta reúne cores escolhidas para serem utilizadas de forma consistente. A repetição controlada das mesmas cores contribui para identidade visual e evita que cada parte da página pareça pertencer a um projeto diferente.
 
-# Desafio 39-40
+### Tipografia
 
-Neste desafio, realizamos uma atividade em grupo onde construímos um site em WordPress. Cada aluno teve uma função específica e todos nos auxiliamos mutuamente. Foi uma atividade muito produtiva, pois aprendi o quanto é prazeroso trabalhar em equipe e também pude aprofundar meus conhecimentos em WordPress com a ajuda dos meus colegas Nadson, Marco e Gabriel.
+A mesma etapa também documenta a escolha das fontes.
 
-<li>aluno A compartilha a tela e cria a página
-<li>aluno B pesquisa 1 seção
-<li>aluno C pesquisa 1 seção
-<li>aluno B auxilia aluno A para criar nova seção
-<li>aluno C auxilia aluno A para criar nova seção
-<li>aluno A irá enviar o arquivo exportado e o print da página criada. Os demais devem enviar os grupos que trabalharam.
+![Fontes](./Desafio3738/Fontes%20%281%29.png)
 
-![Desafio 39 - WordPress](https://github.com/PedroYokada/ModuloIV-WordPress-Kick/blob/main/Desafio3940/Print%20atividade%20em%20grupo.png)
+Tipografia envolve mais do que escolher uma fonte: ela influencia legibilidade, hierarquia e personalidade visual. Títulos, textos e elementos de destaque podem utilizar pesos ou tamanhos diferentes para criar níveis de importância.
 
-# Portifólio WordPress Final
+### Evolução visual do portfólio
 
-<li>https://pedro-yokada.soukick.com.br/?classId=30aa4a21-2fbb-4025-96d9-31a4abf28f7f&assignmentId=27347999-cb46-4726-a175-a05fbf4fb61d&submissionId=e831a39c-70c0-4729-bb1a-db03d2dca27d
+A pasta `Desafio3738/` contém quatro capturas da construção do site. Elas funcionam como documentação visual do estado do projeto naquele momento.
 
-</p>
+### Trabalho colaborativo
 
+No **Desafio 39–40**, o projeto foi realizado em grupo. O enunciado preservado distribui atividades entre alunos: uma pessoa cria a página e compartilha a tela, enquanto outras pesquisam seções e ajudam na criação do conteúdo.
 
+![Atividade em grupo](./Desafio3940/Print%20atividade%20em%20grupo.png)
 
+Essa dinâmica pratica um conceito importante de projetos digitais: **divisão de responsabilidades e colaboração**. Mesmo quando todos trabalham no mesmo produto, cada participante pode assumir uma tarefa específica e depois integrar o resultado ao trabalho coletivo.
+
+## 📈 Evolução do módulo
+
+```text
+Planejamento no Figma
+        ↓
+Rascunho do portfólio
+        ↓
+Definição de cores
+        ↓
+Definição de tipografia
+        ↓
+Construção no WordPress
+        ↓
+Registro da evolução
+        ↓
+Atividade colaborativa
+```
+
+## 🛠️ Tecnologias e ferramentas registradas
+
+- WordPress
+- Figma
+- fundamentos de UI/UX
+- paleta de cores
+- tipografia
+- organização de conteúdo
+
+## 📂 Estrutura
+
+```text
+modulo-iv-wordpress/
+├── Desafio3536/
+├── Desafio3738/
+├── Desafio3940/
+└── README.md
+```
+
+## 🌐 Portfólio registrado no material original
+
+O README original preservava um endereço do portfólio WordPress utilizado na entrega do Bootcamp:
+
+`https://pedro-yokada.soukick.com.br/`
+
+A disponibilidade atual desse endereço depende do serviço externo e não é necessária para consultar os materiais preservados neste repositório.
+
+## 💡 Aprendizados
+
+O módulo demonstra que a criação de um site não depende apenas de código. **planejamento visual, organização do conteúdo, consistência gráfica e colaboração** também fazem parte do processo de desenvolvimento de uma experiência digital.
+
+## 🔗 Navegação
+
+- [Voltar ao repositório principal](../../README.md)
