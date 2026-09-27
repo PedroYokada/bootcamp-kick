@@ -1,94 +1,91 @@
-## Desafio 13-14 Kick - Tema: Megaman X
+# 🎮 Desafio 13–14 — Mega Man X e Responsividade
 
-O objetivo deste projeto é desenvolver um site responsivo, capaz de se adaptar automaticamente a uma variedade de dispositivos com acesso à internet.
-O tema do site é sobre o game Megaman X.
+## 📌 Sobre o projeto
 
-- Paleta de cores do projeto:
+Este desafio apresenta uma página temática de **Mega Man X** criada com HTML e CSS. O principal avanço técnico em relação aos exercícios anteriores é a preocupação com **responsividade**, adaptando parte da interface para diferentes larguras de tela.
 
-  ![paleta de cores.png](https://github.com/PedroYokada/desafiokick13/blob/main/paleta%20de%20cores.png)
+A página possui imagem principal, conteúdo textual, galeria de personagens, tabela e rodapé, além de arquivos de favicon.
 
-- Fonte do projeto: Segoe UI
- - Arquivo HTML:
- 
- ![desafio13.html](https://github.com/PedroYokada/desafiokick13/blob/main/desafio13.html)
+## 🎯 Objetivo
 
-  - Arquivo CSS:
+Praticar construção de layout responsivo utilizando **Flexbox, CSS Grid e media queries**, mantendo o conteúdo organizado em telas maiores e menores.
 
- ![desafio13.css](https://github.com/PedroYokada/desafiokick13/blob/main/desafio13.css)
+## 🧠 Conceitos praticados
 
-- Segue os itens utilizados para a confecção do site.
+### Responsividade
 
-- ICONES FAVICON:
+Um site responsivo modifica sua apresentação de acordo com o espaço disponível. O projeto utiliza a meta tag `viewport` no HTML e regras `@media` no CSS para alterar estilos quando a largura da tela chega a determinados limites.
 
-![20081-3-megaman-photo_16x16.ico](https://github.com/PedroYokada/desafiokick13/blob/main/icons/20081-3-megaman-photo_16x16.ico)
+Existem ajustes para larguras de **768px** e **480px**. Esses pontos são chamados de **breakpoints**.
 
-![20081-3-megaman-photo_32x32.ico](https://github.com/PedroYokada/desafiokick13/blob/main/icons/20081-3-megaman-photo_32x32.ico)
+### Media queries
 
-![20081-3-megaman-photo_48x48.ico](https://github.com/PedroYokada/desafiokick13/blob/main/icons/20081-3-megaman-photo_48x48.ico)
+Uma regra como:
 
-![20081-3-megaman-photo_64x64.ico](https://github.com/PedroYokada/desafiokick13/blob/main/icons/20081-3-megaman-photo_64x64.ico)
+```css
+@media screen and (max-width: 480px) {
+    /* estilos aplicados em telas menores */
+}
+```
 
-![20081-3-megaman-photo.png](https://github.com/PedroYokada/desafiokick13/blob/main/icons/20081-3-megaman-photo.png)
+permite substituir ou adaptar propriedades apenas quando a condição definida é atendida.
 
-- IMAGENS UTILIZADAS NO PROJETO:
+### CSS Grid
 
-- IMAGEM PRINCIPAL DO SITE:
+A galeria utiliza:
 
-![MegamanX.jpg](https://github.com/PedroYokada/desafiokick13/blob/main/MegamanX.jpg)
+```css
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+```
 
-- MEGAMAN X:
+O **CSS Grid** organiza elementos em linhas e colunas. `auto-fill` tenta criar a quantidade de colunas que cabe no espaço e `minmax()` estabelece limites de tamanho. Isso ajuda as imagens a se reorganizarem conforme a largura disponível.
 
-![X.jpeg](https://github.com/PedroYokada/desafiokick13/blob/main/X.jpeg)
+### Flexbox
 
-- ZERO:
+Algumas áreas usam `display: flex`, `justify-content` e `align-items`. O **Flexbox** é útil para alinhar e distribuir elementos em uma direção principal, como linha ou coluna.
 
-![zero.jpg](https://github.com/PedroYokada/desafiokick13/blob/main/zero.jpg)
+### Box model
 
-- VILE:
+Propriedades como `margin`, `padding`, `width`, `height` e `box-sizing` participam do chamado **box model**, o modelo usado pelo navegador para calcular o espaço ocupado por cada elemento.
 
-![vile.png](https://github.com/PedroYokada/desafiokick13/blob/main/vile.png)
+### Tipografia e identidade visual
 
-- ARMORED ARMADILLO:
+O projeto utiliza a família **Segoe UI** em diferentes áreas, além de uma paleta de cores e imagens temáticas. Tipografia, cores e espaçamento ajudam a manter unidade visual entre os elementos.
 
-![Armored.jpeg](https://github.com/PedroYokada/desafiokick13/blob/main/Armored.jpeg)
+## 🛠️ Tecnologias utilizadas
 
-- Boomer Kuwanger:
+- HTML5
+- CSS3
+- Flexbox
+- CSS Grid
+- media queries
+- favicons
 
-![boomer.jpg](https://github.com/PedroYokada/desafiokick13/blob/main/boomer.jpg)
+## 📂 Estrutura principal
 
-- Sting Chameleon:
+```text
+desafio-13-kick/
+├── icons/
+├── desafio13.html
+├── desafio13.css
+├── paleta de cores.png
+└── imagens dos personagens
+```
 
-![charmeleon.jpeg](https://github.com/PedroYokada/desafiokick13/blob/main/charmeleon.jpeg)
+## ⚙️ Como funciona
 
-- Cachorro do Sigma
+`desafio13.html` contém o conteúdo e referencia `desafio13.css`. O CSS define o layout padrão e, nas media queries, muda dimensões, tamanho de texto e organização da galeria para telas menores.
 
-![dog.jpeg](https://github.com/PedroYokada/desafiokick13/blob/main/dog.jpeg)
+## 💡 Aprendizados
 
-- Storm Eagle
+Este exercício registra uma mudança importante na jornada de Front-End: a interface deixa de ser pensada apenas para uma largura fixa e passa a considerar diferentes dispositivos. Flexbox e Grid resolvem problemas de layout de maneiras diferentes e podem ser utilizados em conjunto.
 
-![eagle.jpg](https://github.com/PedroYokada/desafiokick13/blob/main/eagle.jpg)
+## ▶️ Como executar
 
-- Flame Mammoth
-  
-![flame.jpeg](https://github.com/PedroYokada/desafiokick13/blob/main/flame.jpeg)
+Abra `desafio13.html` no navegador. Para observar a responsividade, altere a largura da janela ou utilize o modo de dispositivos das ferramentas de desenvolvedor do navegador.
 
-- Launch Octopus
+## 🔗 Navegação
 
-![octopus.jpg](https://github.com/PedroYokada/desafiokick13/blob/main/octopus.jpg)
-
-- Chill Penguin
-
-![penguin.jpeg](https://github.com/PedroYokada/desafiokick13/blob/main/penguin.jpeg)
-
-
-- Spark Mandrill
-  
-![spark.png](https://github.com/PedroYokada/desafiokick13/blob/main/spark.png)
-
-- Sigma
-
-![sigma.jpeg](https://github.com/PedroYokada/desafiokick13/blob/main/sigma.jpeg)
-
-
-
-
+- [Voltar ao repositório principal](../../README.md)
+- [Ver os demais projetos de fundamentos](../)
