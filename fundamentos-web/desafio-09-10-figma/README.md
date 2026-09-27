@@ -1,122 +1,87 @@
-## Desafio 09-10: FIGMA
+# 🎨 Desafio 09–10 — KICKFLIX no Figma
 
-A finalidade desse projeto é mostrar os resultados obtidos para construção de wireframe no software FIGMA, o tema escolhido foi streaming de filmes(KICKFLIX).
+## 📌 Sobre o projeto
 
-- Segue os materiais utilizados no projeto:
+O Desafio 09–10 registra a criação de um **wireframe e de uma proposta visual para uma plataforma de streaming de filmes chamada KICKFLIX**. O projeto foi desenvolvido no Figma e reúne pesquisa visual, estrutura inicial da interface, identidade gráfica, imagens, ícones e a composição da tela principal.
 
-- Wireframe:
+Antes de definir a interface, foram reunidas referências de serviços como Amazon Prime, Apple TV, Claro TV, Disney+, Globoplay, HBO Max, Netflix e Star+. Essa etapa ajuda a observar padrões recorrentes de navegação e apresentação de conteúdo em plataformas de streaming.
 
-  ![Página Inicial.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/P%C3%A1gina%20Inicial.png)
+## 🎯 Objetivo
 
-- Arcabouço do Wireframe:
+Praticar o processo de criação de uma interface antes da programação, passando por **pesquisa de referências, wireframe, definição visual e prototipação**.
 
-  ![Página Inicial - Wireframe.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/P%C3%A1gina%20Inicial%20-%20Wireframe.png)
+## 🧠 Conceitos praticados
 
-- Logo do projeto:
+### Wireframe
 
-  ![LOGO.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/LOGO.png)
+O **wireframe** é uma representação estrutural da interface. Seu objetivo principal não é apresentar o acabamento final, mas determinar onde ficam áreas como navegação, pesquisa, conteúdos, imagens e outros componentes.
 
-- Sites usados para inspiração:
+![Wireframe da página](./P%C3%A1gina%20Inicial%20-%20Wireframe.png)
 
-  ## Amazon
+### Interface visual
 
- ![Amazon Prime Login.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/pesquisa/Amazon%20Prime%20Login.png)
+Depois da estrutura inicial, o projeto avança para uma versão visual mais definida da página.
 
- ![Amazon Prime.jpeg](https://github.com/PedroYokada/desafiokick0910figma/blob/main/pesquisa/Amazon%20Prime.jpeg)
+![Página inicial](./P%C3%A1gina%20Inicial.png)
 
- ## Apple TV
+Essa passagem do wireframe para a interface final ajuda a separar duas decisões: **como a informação será organizada** e **como essa organização será apresentada visualmente**.
 
- ![Apple TV.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/pesquisa/Apple%20TV.png)
+### Pesquisa de referências
 
-## Claro TV
+A pasta `pesquisa/` guarda capturas de diferentes plataformas. Em UI/UX, analisar produtos existentes é uma forma de reconhecer padrões de uso já familiares ao usuário, sem significar que a interface precisa ser copiada.
 
- ![Claro TV.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/pesquisa/Claro%20TV.png)
+### Identidade visual
 
-## Disney Plus
+O projeto registra separadamente:
 
- ![Disney Plus Login.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/pesquisa/Disney%20Plus%20Login.png)
+- logotipo;
+- paleta de cores;
+- fontes;
+- ícones;
+- posters e imagens;
+- vetores em SVG.
 
- ![Disney Plus.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/pesquisa/Disney%20Plus.png)
- 
+![Logo KICKFLIX](./LOGO.png)
 
-## Globoplay
+A **paleta de cores** ajuda a manter consistência entre telas e elementos. A **tipografia** estabelece hierarquia e legibilidade. Os **ícones** comunicam ações e categorias de maneira visual.
 
-![Globoplay.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/pesquisa/Globoplay.png)
+### UI e UX
 
+**UI (User Interface)** é a camada visual com a qual a pessoa interage: cores, botões, menus, imagens e organização gráfica. **UX (User Experience)** considera a experiência de uso, incluindo clareza, navegação e facilidade para encontrar informações.
 
-## HBO MAX
+Neste desafio, o material está concentrado principalmente na construção e documentação visual da interface.
 
-![HBOmax Login.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/pesquisa/HBOmax%20Login.png)
+## 🛠️ Ferramentas e recursos
 
-![HBOmax.jpg](https://github.com/PedroYokada/desafiokick0910figma/blob/main/pesquisa/HBOmax.jpg)
+- Figma
+- wireframes
+- prototipação visual
+- pesquisa de referências
+- SVG e imagens rasterizadas
+- fundamentos de UI/UX
 
+## 📂 Estrutura do projeto
 
-## Netflix
+```text
+desafio-09-10-figma/
+├── Icons/
+├── Imagens/
+├── Informações/
+├── pesquisa/
+├── LOGO.png
+├── Página Inicial - Wireframe.png
+└── Página Inicial.png
+```
 
-![Netflix 01.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/pesquisa/Netflix%2001.png)
+## 💡 Aprendizados
 
-![Netflix 02.jpg](https://github.com/PedroYokada/desafiokick0910figma/blob/main/pesquisa/Netflix%2002.jpg)
+O principal aprendizado desta etapa é que um projeto de Front-End pode começar **antes do HTML e do CSS**. Planejar a hierarquia, os recursos visuais e a organização das informações reduz decisões improvisadas quando a interface começa a ser implementada.
 
-![Netflix Login.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/pesquisa/Netflix%20Login.png)
+## ▶️ Como visualizar
 
+Os arquivos de imagem podem ser abertos diretamente pelo GitHub. A pasta também contém os recursos utilizados durante a criação da interface.
 
+## 🔗 Navegação
 
-## Star Plus
-
-![Star Plus 02.jpg](https://github.com/PedroYokada/desafiokick0910figma/blob/main/pesquisa/Star%20Plus%2002.jpg)
-
-![Star Plus Login.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/pesquisa/Star%20Plus%20Login.png)
-
-![Star Plus.jpg](https://github.com/PedroYokada/desafiokick0910figma/blob/main/pesquisa/Star%20Plus.jpg)
-
-
-## Paleta de cores utilizada
-
-![Fontes.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/Informa%C3%A7%C3%B5es/Paleta%20de%20Cores.png)
-
-## Fontes utilizadas
-
-![Fontes.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/Informa%C3%A7%C3%B5es/Fontes.png)
-
-## Icones utilizados
-
-![icons.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/Informa%C3%A7%C3%B5es/icons.png)
-
-## Imagens de posters de filmes utilizados
-
-![1917.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/Imagens/Com%20Tag/1917.png)
-
-![Avatar.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/Imagens/Com%20Tag/Avatar.png)
-
-![Cão de Briga.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/Imagens/Com%20Tag/C%C3%A3o%20de%20Briga.png)
-
-![Django Livre.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/Imagens/Com%20Tag/Django%20Livre.png)
-
-![Guardiões da Galaxia.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/Imagens/Com%20Tag/Guardi%C3%B5es%20da%20Galaxia.png)
-
-![John Wick.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/Imagens/Com%20Tag/John%20Wick.png)
-
-![Senhor dos Aneis.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/Imagens/Com%20Tag/Senhor%20dos%20Aneis.png)
-
-![The Godfather.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/Imagens/Com%20Tag/The%20Godfather.png)
-
-![Titanic.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/Imagens/Com%20Tag/Titanic.png)
-
-## Vetores utilizados
-
-![KICKFLIX - TAG.svg](https://github.com/PedroYokada/desafiokick0910figma/blob/main/Icons/KICKFLIX%20-%20TAG.svg)
-
-![Login com foto.png](https://github.com/PedroYokada/desafiokick0910figma/blob/main/Icons/Login%20com%20foto.png)
-
-![icons8-casa-48.svg](https://github.com/PedroYokada/desafiokick0910figma/blob/main/Icons/icons8-casa-48.svg)
-
-![icons8-claquete-96.svg](https://github.com/PedroYokada/desafiokick0910figma/blob/main/Icons/icons8-claquete-96.svg)
-
-![icons8-configurações.svg](https://github.com/PedroYokada/desafiokick0910figma/blob/main/Icons/icons8-configura%C3%A7%C3%B5es.svg)
-
-![icons8-pesquisar.svg](https://github.com/PedroYokada/desafiokick0910figma/blob/main/Icons/icons8-pesquisar.svg)
-
-![icons8-tv-96-_1_.svg](https://github.com/PedroYokada/desafiokick0910figma/blob/main/Icons/icons8-tv-96-_1_.svg)
-
-![icons8-tv-96.svg](https://github.com/PedroYokada/desafiokick0910figma/blob/main/Icons/icons8-tv-96.svg)
-
+- [Voltar ao repositório principal](../../README.md)
+- [Ver os demais projetos de fundamentos](../)
