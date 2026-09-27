@@ -1,0 +1,124 @@
+name: Consolidar projetos do Bootcamp Kick
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/consolidar-kick.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  consolidar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Baixar repositório principal
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Importar repositórios Kick preservando histórico
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          importar() {
+            repo="$1"
+            destino="$2"
+            remoto="import-${repo//[^a-zA-Z0-9]/-}"
+
+            echo ""
+            echo "============================================================"
+            echo "Importando $repo -> $destino"
+            echo "============================================================"
+
+            if git ls-tree -r --name-only HEAD -- "$destino" | grep -q .; then
+              echo "Destino já existe no repositório. Pulando para evitar sobrescrita."
+              return 0
+            fi
+
+            git remote remove "$remoto" 2>/dev/null || true
+            git remote add "$remoto" "https://github.com/PedroYokada/${repo}.git"
+            git fetch "$remoto" main
+            git subtree add --prefix="$destino" "$remoto" main -m "import: ${repo} para consolidação do Bootcamp Kick"
+            git remote remove "$remoto"
+          }
+
+          importar "desafios-kick" "01-fundamentos-web/desafios-kick"
+          importar "Desafio-05-Kick" "01-fundamentos-web/Desafio-05-Kick"
+          importar "Desafio0708Kick" "01-fundamentos-web/Desafio0708Kick"
+          importar "desafiokick0910figma" "01-fundamentos-web/desafiokick0910figma"
+          importar "desafio11kick" "01-fundamentos-web/desafio11kick"
+          importar "desafiokick13" "01-fundamentos-web/desafiokick13"
+          importar "desafio017kick" "01-fundamentos-web/desafio017kick"
+
+          importar "desafio19kick" "02-javascript-front-end/desafio19kick"
+          importar "desafiokick22" "02-javascript-front-end/desafiokick22"
+          importar "desafiokick23" "02-javascript-front-end/desafiokick23"
+          importar "desafio25kick" "02-javascript-front-end/desafio25kick"
+          importar "desafio27kick" "02-javascript-front-end/desafio27kick"
+          importar "desafio29kick" "02-javascript-front-end/desafio29kick"
+          importar "desafio31kick" "02-javascript-front-end/desafio31kick"
+          importar "parada34kick" "02-javascript-front-end/parada34kick"
+
+          importar "projetowebxboxkick" "03-projeto-xbox/projetowebxboxkick"
+          importar "desafiowebkick" "03-projeto-xbox/desafiowebkick"
+
+          importar "ModuloIV-WordPress-Kick" "04-wordpress/ModuloIV-WordPress-Kick"
+          importar "ModuloV-Python-Kick" "05-python/ModuloV-Python-Kick"
+
+      - name: Validar estrutura esperada
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          destinos=(
+            "01-fundamentos-web/desafios-kick"
+            "01-fundamentos-web/Desafio-05-Kick"
+            "01-fundamentos-web/Desafio0708Kick"
+            "01-fundamentos-web/desafiokick0910figma"
+            "01-fundamentos-web/desafio11kick"
+            "01-fundamentos-web/desafiokick13"
+            "01-fundamentos-web/desafio017kick"
+            "02-javascript-front-end/desafio19kick"
+            "02-javascript-front-end/desafiokick22"
+            "02-javascript-front-end/desafiokick23"
+            "02-javascript-front-end/desafio25kick"
+            "02-javascript-front-end/desafio27kick"
+            "02-javascript-front-end/desafio29kick"
+            "02-javascript-front-end/desafio31kick"
+            "02-javascript-front-end/parada34kick"
+            "03-projeto-xbox/projetowebxboxkick"
+            "03-projeto-xbox/desafiowebkick"
+            "04-wordpress/ModuloIV-WordPress-Kick"
+            "05-python/ModuloV-Python-Kick"
+          )
+
+          falhas=0
+          for destino in "${destinos[@]}"; do
+            if git ls-tree -r --name-only HEAD -- "$destino" | grep -q .; then
+              qtd=$(git ls-tree -r --name-only HEAD -- "$destino" | wc -l)
+              echo "OK: $destino ($qtd arquivos versionados)"
+            else
+              echo "ERRO: $destino não foi importado"
+              falhas=$((falhas + 1))
+            fi
+          done
+
+          if [ "$falhas" -ne 0 ]; then
+            echo "$falhas projeto(s) não foram importados corretamente."
+            exit 1
+          fi
+
+      - name: Enviar consolidação para a branch main
+        run: git push origin main
