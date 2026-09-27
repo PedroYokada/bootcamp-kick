@@ -1,0 +1,127 @@
+.container-ign {
+  display: flex;
+  height: 100%;
+}
+
+.divgames-ign {
+  flex-grow: 1;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divgames-ign p {
+  flex-grow: 1;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  font-family: "Segoe UI";
+  font-weight: bold;
+}
+
+.divimagens-ign {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.botao-entrar-ign {
+  background-color: red;
+  color: white;
+  width: 90px;
+  height: 40px;
+  border-radius: 2px;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.header-ign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Segoe UI";
+  font-weight: bold;
+}
+
+.nav-consoles-geral {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-consoles-geral > * {
+  margin-left: 200px;
+  margin-right: 100px;
+}
+
+.dropdown-ign {
+  position: relative;
+  display: inline-block;
+  pointer-events: stroke;
+  font-weight: bold;
+}
+
+.dropdown-ign a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  padding: 12px 16px;
+}
+
+.dropdown-lista-ign {
+  background-color: rgb(255, 255, 255);
+  display: none;
+  position: absolute;
+  min-width: 200px;
+  padding: 12px 0;
+  z-index: 1;
+  color: red;
+}
+
+.dropdown-lista-ign a {
+  text-decoration: none;
+  display: block;
+  padding: 8px 16px;
+}
+
+.dropdown-ign:hover .dropdown-lista-ign {
+  display: block;
+}
+
+@media screen and (max-width: 480px) {
+  .nav-consoles-gin {
+    width: 50px;
+    height: 50px;
+  }
+
+  .divimagens-ign {
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1px;
+    box-sizing: border-box;
+  }
+
+  .header-ign {
+    width: 425px;
+    height: 100px;
+  }
+
+  .header-ign a {
+    font-size: 12px;
+  }
+
+  .nav-consoles-geral{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    font-size: 12px;
+  }
+
+
+}
