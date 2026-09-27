@@ -36,11 +36,11 @@ Python e análise de dados
 
 ```text
 bootcamp-kick/
-├── 01-fundamentos-web/
-├── 02-javascript-front-end/
-├── 03-projeto-xbox/
-├── 04-wordpress/
-├── 05-python/
+├── fundamentos-web/
+├── javascript-front-end/
+├── projeto-xbox/
+├── wordpress/
+├── python/
 └── docs/
 ```
 
@@ -48,25 +48,25 @@ bootcamp-kick/
 
 | Projeto | Descrição | Tecnologias / foco | Origem |
 |---|---|---|---|
-| Desafios iniciais | Primeiros exercícios do bootcamp, incluindo HTML e lógica. | HTML, lógica | `desafios-kick` |
-| Desafio 05 | Projeto sobre a história e contribuições do Google. | HTML, CSS | `Desafio-05-Kick` |
-| Desafio 07–08 | Tabela de produtos com estrutura HTML e estilização. | HTML, CSS | `Desafio0708Kick` |
-| Desafio 09–10 — KICKFLIX | Wireframe e protótipo visual de uma plataforma de streaming. | Figma, UI, wireframe | `desafiokick0910figma` |
-| Desafio 11–12 — Space Invaders | Site temático trabalhando estrutura semântica e estilização. | HTML, CSS | `desafio11kick` |
-| Desafio 13–14 — Mega Man X | Site responsivo sobre Mega Man X. | HTML, CSS, responsividade | `desafiokick13` |
-| Desafio 17 — IGN | Página inspirada na IGN com Flexbox e menu dropdown responsivo. | HTML, CSS, Flexbox | `desafio017kick` |
-| Desafio 19–20 | Página de votação fictícia com interações e alteração de fundo. | HTML, CSS, JavaScript | `desafio19kick` |
-| Desafio 21–22 | Quiz dividido em funções e temas. | JavaScript, funções, condicionais, repetição | `desafiokick22` |
-| Desafio 23–24 | Exercício de funções, `return`, `switch` e seleção de produtos. | JavaScript | `desafiokick23` |
-| Desafio 25 | Atividade de depuração e correção de erros em JavaScript. | JavaScript, debugging | `desafio25kick` |
-| Desafio 27 | Formulário de cadastro com preenchimento de endereço por CEP. | HTML, CSS, JavaScript, ViaCEP | `desafio27kick` |
-| Desafio 29 | Carrossel de imagens feito com JavaScript puro. | HTML, CSS, JavaScript | `desafio29kick` |
-| Desafio 30–31 | Página construída com componentes do Bootstrap. | HTML, Bootstrap | `desafio31kick` |
-| Parada 34 | Estrutura de atividade preservada mesmo estando incompleta. | HTML, CSS | `parada34kick` |
-| Projeto Xbox — Figma | Prototipação, identidade visual, telas e assets do projeto Xbox. | Figma, UI/UX | `projetowebxboxkick` |
-| Projeto Xbox — Web | Implementação do projeto Xbox com múltiplas telas e interações. | HTML, CSS, JavaScript | `desafiowebkick` |
-| Módulo IV | Construção de portfólio e atividades em WordPress. | WordPress, Figma | `ModuloIV-WordPress-Kick` |
-| Módulo V | Exercícios, desafios e projeto de análise de dados em Python. | Python, Jupyter, Pandas e análise de dados | `ModuloV-Python-Kick` |
+| Desafios iniciais | Primeiros exercícios do bootcamp, incluindo HTML e lógica. | HTML, lógica | `desafios-iniciais` |
+| Desafio 05 | Projeto sobre a história e contribuições do Google. | HTML, CSS | `desafio-05-kick` |
+| Desafio 07–08 | Tabela de produtos com estrutura HTML e estilização. | HTML, CSS | `desafio-07-08-kick` |
+| Desafio 09–10 — KICKFLIX | Wireframe e protótipo visual de uma plataforma de streaming. | Figma, UI, wireframe | `desafio-09-10-figma` |
+| Desafio 11–12 — Space Invaders | Site temático trabalhando estrutura semântica e estilização. | HTML, CSS | `desafio-11-kick` |
+| Desafio 13–14 — Mega Man X | Site responsivo sobre Mega Man X. | HTML, CSS, responsividade | `desafio-13-kick` |
+| Desafio 17 — IGN | Página inspirada na IGN com Flexbox e menu dropdown responsivo. | HTML, CSS, Flexbox | `desafio-17-kick` |
+| Desafio 19–20 | Página de votação fictícia com interações e alteração de fundo. | HTML, CSS, JavaScript | `desafio-19-kick` |
+| Desafio 21–22 | Quiz dividido em funções e temas. | JavaScript, funções, condicionais, repetição | `desafio-22-kick` |
+| Desafio 23–24 | Exercício de funções, `return`, `switch` e seleção de produtos. | JavaScript | `desafio-23-kick` |
+| Desafio 25 | Atividade de depuração e correção de erros em JavaScript. | JavaScript, debugging | `desafio-25-kick` |
+| Desafio 27 | Formulário de cadastro com preenchimento de endereço por CEP. | HTML, CSS, JavaScript, ViaCEP | `desafio-27-kick` |
+| Desafio 29 | Carrossel de imagens feito com JavaScript puro. | HTML, CSS, JavaScript | `desafio-29-kick` |
+| Desafio 30–31 | Página construída com componentes do Bootstrap. | HTML, Bootstrap | `desafio-31-kick` |
+| Parada 34 | Estrutura de atividade preservada mesmo estando incompleta. | HTML, CSS | `parada-34-kick` |
+| Projeto Xbox — Figma | Prototipação, identidade visual, telas e assets do projeto Xbox. | Figma, UI/UX | `projeto-xbox-figma` |
+| Projeto Xbox — Web | Implementação do projeto Xbox com múltiplas telas e interações. | HTML, CSS, JavaScript | `projeto-xbox-web` |
+| Módulo IV | Construção de portfólio e atividades em WordPress. | WordPress, Figma | `modulo-iv-wordpress` |
+| Módulo V | Exercícios, desafios e projeto de análise de dados em Python. | Python, Jupyter, Pandas e análise de dados | `modulo-v-python` |
 
 ## 🛠️ Tecnologias utilizadas
 
@@ -91,7 +91,7 @@ A evolução culmina no **Projeto Web Xbox**, desenvolvido desde a prototipaçã
 
 Cada repositório de origem possui uma pasta própria na consolidação. Isso evita sobrescrita de arquivos com nomes repetidos como `index.html`, `index.css`, `README.md` e imagens. Quando existirem versões repetidas ou conteúdos semelhantes, eles são mantidos para preservar o histórico de aprendizagem.
 
-Consulte também [`docs/MAPA-DE-ORIGENS.md`](./docs/MAPA-DE-ORIGENS.md) para ver a relação entre os repositórios antigos e a nova estrutura.
+Consulte também [`docs/mapa-de-origens.md`](./docs/mapa-de-origens.md) para ver a relação entre os repositórios antigos e a nova estrutura.
 
 ---
 

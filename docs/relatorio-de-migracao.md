@@ -14,25 +14,25 @@ A consolidação dos repositórios do Bootcamp Kick foi concluída com sucesso e
 
 | Destino | Arquivos versionados |
 |---|---:|
-| `01-fundamentos-web/desafios-kick` | 4 |
-| `01-fundamentos-web/Desafio-05-Kick` | 9 |
-| `01-fundamentos-web/Desafio0708Kick` | 2 |
-| `01-fundamentos-web/desafiokick0910figma` | 49 |
-| `01-fundamentos-web/desafio11kick` | 13 |
-| `01-fundamentos-web/desafiokick13` | 23 |
-| `01-fundamentos-web/desafio017kick` | 9 |
-| `02-javascript-front-end/desafio19kick` | 3 |
-| `02-javascript-front-end/desafiokick22` | 2 |
-| `02-javascript-front-end/desafiokick23` | 2 |
-| `02-javascript-front-end/desafio25kick` | 3 |
-| `02-javascript-front-end/desafio27kick` | 10 |
-| `02-javascript-front-end/desafio29kick` | 7 |
-| `02-javascript-front-end/desafio31kick` | 6 |
-| `02-javascript-front-end/parada34kick` | 2 |
-| `03-projeto-xbox/projetowebxboxkick` | 46 |
-| `03-projeto-xbox/desafiowebkick` | 87 |
-| `04-wordpress/ModuloIV-WordPress-Kick` | 9 |
-| `05-python/ModuloV-Python-Kick` | 69 |
+| `fundamentos-web/desafios-iniciais` | 4 |
+| `fundamentos-web/desafio-05-kick` | 9 |
+| `fundamentos-web/desafio-07-08-kick` | 2 |
+| `fundamentos-web/desafio-09-10-figma` | 49 |
+| `fundamentos-web/desafio-11-kick` | 13 |
+| `fundamentos-web/desafio-13-kick` | 23 |
+| `fundamentos-web/desafio-17-kick` | 9 |
+| `javascript-front-end/desafio-19-kick` | 3 |
+| `javascript-front-end/desafio-22-kick` | 2 |
+| `javascript-front-end/desafio-23-kick` | 2 |
+| `javascript-front-end/desafio-25-kick` | 3 |
+| `javascript-front-end/desafio-27-kick` | 10 |
+| `javascript-front-end/desafio-29-kick` | 7 |
+| `javascript-front-end/desafio-31-kick` | 6 |
+| `javascript-front-end/parada-34-kick` | 2 |
+| `projeto-xbox/projeto-xbox-figma` | 46 |
+| `projeto-xbox/projeto-xbox-web` | 87 |
+| `wordpress/modulo-iv-wordpress` | 9 |
+| `python/modulo-v-python` | 69 |
 | **Total** | **355** |
 
 ## Arquivo grande identificado
@@ -40,7 +40,7 @@ A consolidação dos repositórios do Bootcamp Kick foi concluída com sucesso e
 O arquivo:
 
 ```text
-05-python/ModuloV-Python-Kick/Projeto Python/lista_de_espera_sisu_2022_2.csv
+python/modulo-v-python/Projeto Python/lista_de_espera_sisu_2022_2.csv
 ```
 
 possui aproximadamente **88,99 MB**. O GitHub aceitou o arquivo normalmente, mas emitiu um aviso por ele ultrapassar o tamanho recomendado de 50 MB. Ele permanece abaixo do limite máximo convencional de 100 MB por arquivo.
