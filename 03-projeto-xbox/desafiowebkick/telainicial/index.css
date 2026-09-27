@@ -1,0 +1,471 @@
+/* Estilos gerais */
+body {
+  background-color: #38b000;
+  margin: 0;
+}
+
+.div-menu {
+  width: 98%;
+  height: 100px;
+}
+
+
+.header-pagina {
+  background-color: #4c4c4c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  width: calc(100% - 10px);
+  border-radius: 20px;
+  padding: 0 20px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.div-menu label,
+li {
+  font-weight: bold;
+}
+
+.header-pagina p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.875rem; /* 30px */
+  color: white;
+  margin: 0 20px;
+  font-weight: bold;
+}
+
+.header-pagina .menu-pagina-inicial {
+  font-size: 1.5rem; /* 24px */
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  display: none;
+}
+
+.header-pagina .nav-pagina-inicial {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.header-pagina nav {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.25rem; /* 20px */
+  color: white;
+}
+
+.header-pagina nav li {
+  margin: 0 10px;
+}
+
+.header-pagina nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.125rem; /* 18px */
+}
+
+.header-pagina .div-usuario {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header-pagina .usuario {
+  height: 5rem; /* 80px */
+  width: 5.625rem; /* 90px */
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+.svg-xbox {
+  filter: brightness(0) invert(1);
+  height: 4.0625rem; /* 65px */
+  width: 4.0625rem; /* 65px */
+  margin-right: 10px;
+}
+
+.menu-pagina-inicial {
+  display: none;
+  font-size: 1.5rem; /* 24px */
+  cursor: pointer;
+}
+
+.nav-pagina-inicial {
+  display: flex;
+}
+
+.nav-pagina-inicial nav {
+  flex-direction: column;
+  width: 100%;
+}
+
+.nav-pagina-inicial nav li {
+  margin: 10px 0;
+}
+
+.nav-pagina-inicial.show {
+  display: flex;
+}
+
+/* Estilos da seção de jogos */
+.div-game {
+  position: relative;
+  width: 100%;
+  max-width: 1600px;
+  height: 700px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.games img {
+  width: 100%;
+  height: 700px;
+  display: none;
+}
+
+.games img.active {
+  display: block;
+}
+
+.voltar,
+.proximo {
+  cursor: pointer;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 20px;
+  margin-top: -22px;
+  font-size: 2rem; /* 32px */
+  font-weight: bold;
+  user-select: none;
+}
+
+.proximo {
+  right: 0;
+}
+
+.voltar:hover,
+.proximo:hover {
+  transition: 0.2s;
+  background-color: black;
+  border-radius: 3px;
+}
+
+.n_jogos {
+  color: white;
+  background-color: black;
+  font-size: 1.875rem; /* 30px */
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.i_text {
+  color: white;
+  background-color: black;
+  font-size: 1.875rem; /* 30px */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.ponto {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin: 0px 2px;
+  background-color: rgba(175, 25, 25, 0.774);
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 10;
+}
+
+.active,
+.ponto:hover {
+  transition: 0.5s;
+  background-color: #717171;
+}
+
+.dots_box {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.games {
+  animation: animacao 1.5s;
+}
+
+@keyframes animacao {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Estilos do botão de pré-encomenda */
+.botao-pré-encomenda {
+  background-color: #38b000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem; /* 16px */
+  color: white;
+  width: 12.5rem; /* 200px */
+  height: 3.125rem; /* 50px */
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  border-style: groove;
+  border-color: #4c4c4c;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+.botao-pré-encomenda:hover {
+  background-color: crimson;
+}
+
+/* Estilos dos botões de acesso rápido */
+.div-botoes {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1865px;
+  height: 200px;
+  position: relative;
+  margin-top: 5%;
+}
+
+.container-headset,
+.container-play,
+.container-usuario,
+.container-logout {
+  width: 9.375rem; /* 150px */
+  height: 9.375rem; /* 150px */
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.container-headset input,
+.container-play input,
+.container-usuario input,
+.container-logout input {
+  width: 9.375rem; /* 150px */
+  height: 9.375rem; /* 150px */
+}
+
+.headset,
+.play,
+.user,
+.logout {
+  width: 7.5rem; /* 120px */
+  height: 7.5rem; /* 120px */
+  cursor: pointer;
+}
+
+.container-headset label,
+.container-play label,
+.container-usuario label,
+.container-logout label {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5625rem; /* 25px */
+  color: white;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .header-pagina {
+    width: 43.8rem; /* 400px */
+    height: 6.25rem; /* 100px */
+  }
+  .header-pagina p {
+    font-size: 1.9rem; /* 30px */
+  }
+
+  .header-pagina nav {
+    font-size: 0.875rem; /* 14px */
+  }
+
+  .header-pagina .usuario {
+    height: 3.125rem; /* 50px */
+    width: 3.125rem; /* 50px */
+  }
+
+  .svg-xbox {
+    height: 3.75rem; /* 60px */
+    width: 3.75rem; /* 60px */
+  }
+
+  .botao-pré-encomenda {
+    font-size: 1rem; /* 16px */
+    width: 9.375rem; /* 150px */
+    height: 3.75rem; /* 60px */
+    top: 30%;
+  }
+
+  .div-botoes {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    max-width: 600px;
+    height: auto;
+  }
+
+  .container-headset,
+  .container-play,
+  .container-usuario,
+  .container-logout {
+    width: 9.375rem; /* 150px */
+    height: 9.375rem; /* 150px */
+    margin: 10px;
+    margin-left: 140px;
+  }
+
+  .container-headset input,
+  .container-play input,
+  .container-usuario input,
+  .container-logout input {
+    width: 6.25rem; /* 100px */
+    height: 6.25rem; /* 100px */
+  }
+
+  .container-play label,
+  .container-headset label,
+  .container-usuario label,
+  .container-logout label {
+    top: 100%;
+    margin-left: -25px;
+    font-size: 1.125rem; /* 18px */
+    text-align: center;
+  }
+
+  .header-pagina .menu-pagina-inicial {
+    display: block;
+  }
+
+  .header-pagina .nav-pagina-inicial {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #4c4c4c;
+    width: 100%;
+  }
+
+  .header-pagina .nav-pagina-inicial.show {
+    display: flex;
+  }
+
+  .header-pagina .div-usuario {
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-pagina {
+    width: 25rem; /* 400px */
+    height: 6.25rem; /* 100px */
+  }
+  .header-pagina p {
+    font-size: 1.875rem; /* 30px */
+  }
+
+  .header-pagina nav {
+    font-size: 0.875rem; /* 14px */
+  }
+
+  .header-pagina .usuario {
+    height: 3.125rem; /* 50px */
+    width: 3.125rem; /* 50px */
+  }
+
+  .svg-xbox {
+    height: 3.75rem; /* 60px */
+    width: 3.75rem; /* 60px */
+  }
+
+  .botao-pré-encomenda {
+    font-size: 1rem; /* 16px */
+    width: 9.375rem; /* 150px */
+    height: 3.75rem; /* 60px */
+    top: 30%;
+  }
+
+  .div-botoes {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 30px;
+    max-width: 600px;
+    height: 600px;
+  }
+
+  .container-headset,
+  .container-play,
+  .container-usuario,
+  .container-logout {
+    width: 9.375rem; /* 150px */
+    height: 6.25rem; /* 100px */
+    margin: 5px;
+  }
+
+  .container-headset input,
+  .container-play input,
+  .container-usuario input,
+  .container-logout input {
+    width: 6.25rem; /* 100px */
+    height: 6.25rem; /* 100px */
+  }
+
+  .container-play label,
+  .container-headset label,
+  .container-usuario label,
+  .container-logout label {
+    top: 7.5rem; /* 120px */
+    font-size: 1.125rem; /* 18px */
+    text-align: center;
+  }
+
+  .header-pagina .nav-pagina-inicial {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #4c4c4c;
+    width: 100%;
+  }
+
+  .header-pagina .nav-pagina-inicial.show {
+    display: flex;
+  }
+
+  .header-pagina .div-usuario {
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
