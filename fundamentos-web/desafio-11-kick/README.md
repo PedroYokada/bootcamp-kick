@@ -1,27 +1,68 @@
-## Desafio 11-12 Kick - Tema: Space Invaders
+# 👾 Desafio 11–12 — Space Invaders
 
-A finalidade deste projeto é usar identificadores semanticos para nomear as tags <td>.
+## 📌 Sobre o projeto
 
--Segue os itens utilizados para a confecção do site.
+Este exercício desenvolve uma página temática de **Space Invaders** utilizando HTML e CSS. O código reúne cabeçalho, navegação, textos, imagem, uma tabela com informações do jogo, rodapé e diferentes arquivos de favicon.
 
--ICONES FAVICON:
+## 🎯 Objetivo
 
-![favicon-16x16.png](https://github.com/PedroYokada/desafio11kick/blob/main/icon/favicon-16x16.png)
+Praticar a organização de uma página com elementos HTML adequados ao tipo de conteúdo e separar a estrutura do documento da estilização visual realizada no CSS.
 
-![android-chrome-192x192.png](https://github.com/PedroYokada/desafio11kick/blob/main/icon/android-chrome-192x192.png)
+## 🧠 Conceitos praticados
 
-![apple-touch-icon.png](https://github.com/PedroYokada/desafio11kick/blob/main/icon/apple-touch-icon.png)
+### HTML semântico
 
-![android-chrome-512x512.png](https://github.com/PedroYokada/desafio11kick/blob/main/icon/android-chrome-512x512.png)
+O projeto utiliza elementos como `header`, `nav` e `footer`. Essas tags dão significado às áreas da página e tornam a estrutura mais compreensível do que utilizar apenas elementos genéricos.
 
--IMAGEM DO GAME SPACE INVADERS:
+### Tabelas
 
-![space.jpg](https://github.com/PedroYokada/desafio11kick/blob/main/space.jpg)
+A página possui uma tabela construída com `table`, `tr`, `th` e `td`. Esse conjunto de elementos é apropriado quando as informações possuem relação entre linhas e colunas.
 
--Código HTML:
+### Links e navegação
 
-![index.html](https://github.com/PedroYokada/desafio11kick/blob/main/index.html)
+Elementos `<a>` são utilizados para representar opções de navegação. Um link é definido principalmente pelo atributo `href`, que indica o destino a ser aberto.
 
--Código CSS:
+### Imagens e texto alternativo
 
-![index.css](https://github.com/PedroYokada/desafio11kick/blob/main/index.css)
+O elemento `<img>` incorpora recursos visuais à página. O atributo `alt`, quando utilizado, fornece uma descrição textual da imagem e contribui para acessibilidade e situações em que o arquivo visual não pode ser carregado.
+
+### CSS externo
+
+O HTML importa `index.css` por meio da tag `<link>`. Dessa forma, o HTML permanece responsável pela estrutura enquanto o CSS controla a apresentação.
+
+### Favicon
+
+A pasta `icon/` contém versões de favicon para diferentes tamanhos e dispositivos, além de um `site.webmanifest`. O **favicon** é o pequeno ícone associado ao site que pode aparecer na aba do navegador, favoritos ou atalhos.
+
+## 🛠️ Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- favicons e Web Manifest
+
+## 📂 Estrutura principal
+
+```text
+desafio-11-kick/
+├── icon/
+├── index.html
+├── index.css
+└── space.jpg
+```
+
+## ⚙️ Como funciona
+
+`index.html` organiza todo o conteúdo da página e referencia `index.css` para a aparência. Os recursos presentes em `icon/` configuram a identidade visual do site no navegador, enquanto `space.jpg` é utilizado como imagem temática.
+
+## 💡 Aprendizados
+
+O desafio ajuda a avançar de páginas formadas apenas por elementos isolados para uma estrutura dividida em áreas com funções claras. Também reforça que **semântica HTML e aparência CSS são responsabilidades diferentes**, embora trabalhem juntas na construção da interface.
+
+## ▶️ Como executar
+
+Abra `index.html` em um navegador. Não existem dependências externas ou etapa de instalação.
+
+## 🔗 Navegação
+
+- [Voltar ao repositório principal](../../README.md)
+- [Ver os demais projetos de fundamentos](../)
