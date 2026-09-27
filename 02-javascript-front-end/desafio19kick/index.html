@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Eleições 2026 - Pedro Yokada</title>
+  </head>
+  <body>
+    <script>
+      function AlterarFundo() {
+        let background = document.body;
+        background.style.background = "#38B000";
+      }
+
+      function AlterarFundo2() {
+        let background = document.body;
+        background.style.background = "#7474e0";
+      }
+      function votacao() {
+        let votacao = document.querySelector('input[name="candidato"]:checked');
+        if (votacao) alert("O seu voto foi em: " + votacao.value);
+      }
+    </script>
+
+    <div class="divheader">
+      <header class="header">
+        <h1>Eleições para a presidência de 2026</h1>
+        <br />
+      </header>
+    </div>
+
+    <div class="div-votos">
+
+      <h4>Opções de votos</h4>
+
+      <input
+        id="leo"
+        onclick="votacao()"
+        type="radio"
+        name="candidato"
+        value="Leonardo"
+      />Leonardo-Partido Azul <br />
+      <input
+        id="Donatello"
+        onclick="votacao()"
+        type="radio"
+        name="candidato"
+        value="Donatello"
+      />Donatello-Partido Roxo <br />
+      <input
+        id="Michelangelo"
+        onclick="votacao()"
+        type="radio"
+        name="candidato"
+        value="Michelangelo"
+      />Michelangelo-Partido Laranja <br />
+      <input
+        id="Rafael"
+        onclick="votacao()"
+        type="radio"
+        name="candidato"
+        value="Rafael"
+      />Rafael-Partido Vermelho <br />
+      <input
+        id="Nulo"
+        onclick="votacao()"
+        type="radio"
+        name="candidato"
+        value="Nulo"
+      />Voto Nulo <br />
+      <input
+        id="Branco"
+        onclick="votacao()"
+        type="radio"
+        name="candidato"
+        value="Branco"
+      />Voto em Branco<br /><br />
+      <input
+        id="background"
+        onclick="AlterarFundo()"
+        type="button"
+        name="background"
+        class="botao"
+        value="Mudar a cor de fundo"
+      />
+
+      <input
+        id="background"
+        onclick="AlterarFundo2()"
+        type="button"
+        name="background"
+        class="botao"
+        value="Voltar a cor original"
+      />
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <footer>
+      Este projeto é de autoria de Pedro Yokada - Turma L - KICK 2024
+    </footer>
+  </body>
+</html>
