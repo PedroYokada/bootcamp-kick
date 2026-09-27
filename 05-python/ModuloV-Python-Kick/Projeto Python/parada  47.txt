@@ -1,0 +1,8 @@
+https://thalitaio.notion.site/661b2f18d44840fdb2b80580610fffcc
+https://thalitaio.notion.site/Parada-48-dc0b55fd803d4f3eb32cd6dab537dda2
+https://seaborn.pydata.org
+https://www.kaggle.com/search?q=brasil+in%3Adatasets
+https://dadosabertos.mec.gov.br/indicadores-sobre-ensino-superior/item/183-cursos-de-graduacao-do-brasil
+https://thalitaio.notion.site/Parada-47-6b06a45aa2de441393df7f1f341d7bf0
+https://pandas.pydata.org/
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.head.html
